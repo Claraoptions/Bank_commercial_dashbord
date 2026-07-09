@@ -40,15 +40,14 @@ dataset (Banco de Portugal, 41,188 records), covering:
 | Streamlit | Interactive dashboard |
 
 ## Project Structure
-bank-commercial-dashboard/
 
-├── bank_marketing_project.ipynb   # EDA and data cleaning
-├── 02_sql_analysis.ipynb          # SQL analysis notebook
-├── dashboard.py                   # Interactive Streamlit dashboard
-├── bank_commercial_full.csv       # Raw enriched dataset
-├── bank_commercial_clean.csv      # Cleaned dataset
-├── branch_targets.csv             # Branch targets table
-└── fig1-fig6_*.png                # Exported visualisations
+- `bank_marketing_project.ipynb` — EDA and data cleaning
+- `02_sql_analysis.ipynb` — SQL analysis notebook
+- `dashboard.py` — Interactive Streamlit dashboard
+- `bank_commercial_full.csv` — Raw enriched dataset
+- `bank_commercial_clean.csv` — Cleaned dataset
+- `branch_targets.csv` — Branch targets table
+- `fig1-fig6_*.png` — Exported visualisations
 
 ## How to Run
 ```bash
